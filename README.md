@@ -15,7 +15,7 @@ Anaconda – Python 3.7 Installation / Moodle-Code Runner
 7. End the program.
 
 ## PROGRAM:
-"""
+```
 Program to implement the multivariate linear regression model for sales prediction.
 Developed by:K.M.SWETHA
 RegisterNumber: 212221240055
@@ -47,7 +47,7 @@ print("MSE is {}".format(MSE))
 r2 = metrics.r2_score(Y_test,Y_pred)
 print("R squared error is {}".format(r2))
 l.predict([[150.3,240.5,234.5]])
-"""
+```
 
 ## OUTPUT:
 ![image](https://user-images.githubusercontent.com/94228215/161429522-eafe1178-47c3-4090-bcec-79009f2d2f8f.png)
