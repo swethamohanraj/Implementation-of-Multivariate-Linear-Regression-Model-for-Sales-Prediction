@@ -1,20 +1,21 @@
-Implementation-of-Multivariate-Linear-Regression-Model-for-Sales-Prediction
-AIM:
+## Implementation-of-Multivariate-Linear-Regression-Model-for-Sales-Prediction
+## AIM:
 To write a program to implement the multivariate linear regression model for sales prediction.
 
-EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Moodle-Code Runner
-ALGORITHM:
-Import the required standard libraries.
-Upload the dataset
-Declare X and Y variable with respect to the dataset.
-Predict the values.
-Find the required line that fits the data using Mean Square Error(MSE).
-Print the Mean Square Error(MSE) and R square error.
-End the program.
-PROGRAM:
+## ALGORITHM:
+1. Import the required standard libraries.
+2. Upload the dataset
+3. Declare X and Y variable with respect to the dataset.
+4. Predict the values.
+5. Find the required line that fits the data using Mean Square Error(MSE).
+6. Print the Mean Square Error(MSE) and R square error.
+7. End the program.
 
+## PROGRAM:
+"""
 Program to implement the multivariate linear regression model for sales prediction.
 Developed by:K.M.SWETHA
 RegisterNumber: 212221240055
@@ -46,8 +47,9 @@ print("MSE is {}".format(MSE))
 r2 = metrics.r2_score(Y_test,Y_pred)
 print("R squared error is {}".format(r2))
 l.predict([[150.3,240.5,234.5]])
+"""
 
-OUTPUT:
+## OUTPUT:
 ![image](https://user-images.githubusercontent.com/94228215/161429522-eafe1178-47c3-4090-bcec-79009f2d2f8f.png)
 
 
